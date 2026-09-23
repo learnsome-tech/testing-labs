@@ -1,0 +1,1 @@
+pytest -q -s test_ledger.py

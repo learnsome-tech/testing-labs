@@ -1,0 +1,1 @@
+pytest -q -k full_discount test_names.py

@@ -1,0 +1,4 @@
+F [100%]
+=== short test summary info ===
+FAILED test_contract_shape.py::test_pay_uses_the_gateway_contract - KeyErro...
+1 failed in TIMEs

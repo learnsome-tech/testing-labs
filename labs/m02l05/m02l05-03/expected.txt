@@ -1,0 +1,16 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+____________________ test_the_invoice_adds_up_every_line _____________________
+
+    def test_the_invoice_adds_up_every_line():
+        lines = [(250, 2), (125, 4)]
+
+        total = invoice_total(lines)
+
+>       assert total == 1100
+E       assert 1000 == 1100
+
+test_invoice.py:9: AssertionError
+========================== short test summary info ===========================
+FAILED test_invoice.py::test_the_invoice_adds_up_every_line - assert 1000 == 1100
+1 failed in 0.01s

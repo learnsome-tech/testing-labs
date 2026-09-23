@@ -1,0 +1,1 @@
+pytest -q -k silly test_discount.py

@@ -1,0 +1,16 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+______________________ test_the_names_are_kept_in_order ______________________
+test_invoice.py:7: in test_the_names_are_kept_in_order
+    assert line_names(lines) == ["tea", "jam", "cake"]
+E   AssertionError: assert ['tea', 'jam'] == ['tea', 'jam', 'cake']
+E
+E     Right contains one more item: 'cake'
+E
+E     Full diff:
+E       [
+E           'tea',
+E           'jam',
+E     -     'cake',
+E       ]
+1 failed in 0.01s

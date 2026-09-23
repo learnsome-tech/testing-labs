@@ -1,0 +1,13 @@
+F [100%]
+=== FAILURES ===
+___ test_paying_with_the_real_gateway ___
+test_real.py:6: in test_paying_with_the_real_gateway
+    assert pay(Gateway(), 1000, "abc") == "abc"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+checkout.py:7: in pay
+    receipt = gateway.charge(pence, reference)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gateway.py:9: in charge
+    raise RuntimeError("this would reach the network")
+E   RuntimeError: this would reach the network
+1 failed in TIMEs

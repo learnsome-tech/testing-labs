@@ -1,0 +1,11 @@
+.F                                                                     [100%]
+================================== FAILURES ==================================
+______________________ test_the_price_list_is_untouched ______________________
+test_leak.py:7: in test_the_price_list_is_untouched
+    assert len(price_list) == 2
+E   AssertionError: assert 3 == 2
+E    +  where 3 = len({'tea': 250, 'jam': 125, 'cake': 400})
+========================== short test summary info ===========================
+FAILED test_leak.py::test_the_price_list_is_untouched - AssertionError: assert 3 == 2
+ +  where 3 = len({'tea': 250, 'jam': 125, 'cake': 400})
+1 failed, 1 passed in 0.01s

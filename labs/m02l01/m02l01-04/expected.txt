@@ -1,0 +1,8 @@
+============================ test session starts =============================
+collecting ... collected 3 items
+
+test_discount.py::test_ten_per_cent_off_a_round_price PASSED           [ 33%]
+test_discount.py::test_nothing_off_leaves_the_price_alone PASSED       [ 66%]
+test_discount.py::test_a_silly_percentage_is_refused PASSED            [100%]
+
+============================= 3 passed in 0.00s ==============================

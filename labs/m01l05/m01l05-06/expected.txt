@@ -1,0 +1,11 @@
+F                                                                      [100%]
+================================== FAILURES ==================================
+_________________ test_a_restocking_fee_comes_off_the_refund _________________
+test_refund.py:5: in test_a_restocking_fee_comes_off_the_refund
+    assert refund(1000, 1000, restocking_fee=50) == 950
+E   assert -50 == 950
+E    +  where -50 = refund(1000, 1000, restocking_fee=50)
+========================== short test summary info ===========================
+FAILED test_refund.py::test_a_restocking_fee_comes_off_the_refund - assert -50 == 950
+ +  where -50 = refund(1000, 1000, restocking_fee=50)
+1 failed in 0.01s

@@ -1,0 +1,1 @@
+pytest -v --no-header test_discount.py

@@ -1,0 +1,1 @@
+pytest -q --collect-only test_names.py
