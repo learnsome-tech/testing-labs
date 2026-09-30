@@ -1,0 +1,25 @@
+{
+  "lab": "m03l02-04",
+  "lesson": "m03l02",
+  "title": "A stub and a spy",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_doubles.py",
+  "main": "test_doubles.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "checkout.py",
+    "command.txt",
+    "test_doubles.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

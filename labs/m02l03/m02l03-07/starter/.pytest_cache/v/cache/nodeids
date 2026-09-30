@@ -1,0 +1,4 @@
+[
+  "test_ledger.py::test_an_entry_can_be_added",
+  "test_ledger.py::test_each_test_gets_a_fresh_ledger"
+]

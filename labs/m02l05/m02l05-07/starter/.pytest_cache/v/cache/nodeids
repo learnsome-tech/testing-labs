@@ -1,0 +1,4 @@
+[
+  "test_rates.py::test_a_conversion_is_right_to_the_penny",
+  "test_rates.py::test_an_unknown_currency_is_refused"
+]

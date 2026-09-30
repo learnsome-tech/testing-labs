@@ -1,0 +1,26 @@
+{
+  "lab": "m03l01-05",
+  "lesson": "m03l01",
+  "title": "A stub: the smallest thing that answers",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_checkout.py",
+  "main": "test_checkout.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "checkout.py",
+    "command.txt",
+    "gateway.py",
+    "test_checkout.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

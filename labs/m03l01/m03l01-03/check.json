@@ -1,0 +1,18 @@
+{
+  "lab": "m03l01-03",
+  "lesson": "m03l01",
+  "title": "A seam: pass the collaborator in",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "checkout.py",
+  "files": [
+    "checkout.py",
+    "gateway.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

@@ -1,0 +1,4 @@
+{
+  "test_discount.py::test_a_tenth_off[half-penny]": true,
+  "test_discount.py::test_a_tenth_off[single-penny]": true
+}

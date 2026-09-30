@@ -1,0 +1,25 @@
+{
+  "lab": "m03l04-05",
+  "lesson": "m03l04",
+  "title": "Choose the result on purpose",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_invite.py",
+  "main": "test_invite.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "invite.py",
+    "test_invite.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

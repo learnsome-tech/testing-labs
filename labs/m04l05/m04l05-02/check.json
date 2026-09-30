@@ -1,0 +1,24 @@
+{
+  "lab": "m04l05-02",
+  "lesson": "m04l05",
+  "title": "A local storage contract",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_storage.py",
+  "main": "test_storage.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "test_storage.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

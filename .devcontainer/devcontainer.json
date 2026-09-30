@@ -1,0 +1,17 @@
+{
+  "name": "Automated Testing, TDD & Quality Engineering labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": []
+    }
+  }
+}

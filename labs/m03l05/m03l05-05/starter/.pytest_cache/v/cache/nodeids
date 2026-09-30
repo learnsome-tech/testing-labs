@@ -1,0 +1,4 @@
+[
+  "test_report.py::test_existing_report_can_be_read",
+  "test_report.py::test_missing_report_is_empty"
+]

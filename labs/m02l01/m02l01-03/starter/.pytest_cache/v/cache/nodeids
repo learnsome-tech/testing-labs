@@ -1,0 +1,5 @@
+[
+  "test_discount.py::test_a_silly_percentage_is_refused",
+  "test_discount.py::test_nothing_off_leaves_the_price_alone",
+  "test_discount.py::test_ten_per_cent_off_a_round_price"
+]

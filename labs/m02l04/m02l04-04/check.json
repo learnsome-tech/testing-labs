@@ -1,0 +1,21 @@
+{
+  "lab": "m02l04-04",
+  "lesson": "m02l04",
+  "title": "What collection shows you",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q --collect-only test_names.py",
+  "main": "test_names.py",
+  "files": [
+    "command.txt",
+    "discount.py",
+    "test_names.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

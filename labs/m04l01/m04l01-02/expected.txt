@@ -1,4 +1,0 @@
-F [100%]
-=== short test summary info ===
-FAILED test_flaky.py::test_second_is_zero - assert 0 == 1
-1 failed in TIMEs

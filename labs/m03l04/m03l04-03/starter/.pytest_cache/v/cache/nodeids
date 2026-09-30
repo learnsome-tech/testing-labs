@@ -1,0 +1,4 @@
+[
+  "test_session.py::test_session_is_active_before_expiry",
+  "test_session.py::test_session_is_inactive_at_expiry"
+]

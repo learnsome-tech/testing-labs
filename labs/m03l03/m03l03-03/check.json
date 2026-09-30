@@ -1,0 +1,25 @@
+{
+  "lab": "m03l03-03",
+  "lesson": "m03l03",
+  "title": "The mock makes the bug look green",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_mocked_checkout.py",
+  "main": "test_mocked_checkout.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "checkout.py",
+    "command.txt",
+    "test_mocked_checkout.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

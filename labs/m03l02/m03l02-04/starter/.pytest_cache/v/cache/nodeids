@@ -1,0 +1,4 @@
+[
+  "test_doubles.py::test_a_spy_lets_you_check_the_request",
+  "test_doubles.py::test_a_stub_lets_you_check_the_answer"
+]

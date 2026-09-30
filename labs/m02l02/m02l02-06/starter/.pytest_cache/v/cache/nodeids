@@ -1,0 +1,6 @@
+[
+  "test_discount.py::test_a_tenth_off[half-penny]",
+  "test_discount.py::test_a_tenth_off[off-by-a-penny]",
+  "test_discount.py::test_a_tenth_off[round]",
+  "test_discount.py::test_a_tenth_off[single-penny]"
+]

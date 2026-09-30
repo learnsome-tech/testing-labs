@@ -1,0 +1,25 @@
+{
+  "lab": "m03l04-03",
+  "lesson": "m03l04",
+  "title": "Freeze time at both sides of the boundary",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_session.py",
+  "main": "test_session.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "session.py",
+    "test_session.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

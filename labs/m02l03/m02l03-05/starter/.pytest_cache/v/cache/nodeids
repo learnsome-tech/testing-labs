@@ -1,0 +1,4 @@
+[
+  "test_leak.py::test_adding_a_line",
+  "test_leak.py::test_the_price_list_is_untouched"
+]

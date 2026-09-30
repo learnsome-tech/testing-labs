@@ -1,0 +1,26 @@
+{
+  "lab": "m02l03-05",
+  "lesson": "m02l03",
+  "title": "A wide scope that leaks",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q --tb=short test_leak.py",
+  "main": "test_leak.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/lastfailed",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "conftest.py",
+    "test_leak.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

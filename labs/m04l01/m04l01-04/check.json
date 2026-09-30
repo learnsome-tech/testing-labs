@@ -1,0 +1,25 @@
+{
+  "lab": "m04l01-04",
+  "lesson": "m04l01",
+  "title": "The fixed instant stays green",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_clocked.py",
+  "main": "test_clocked.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "clocked.py",
+    "command.txt",
+    "test_clocked.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

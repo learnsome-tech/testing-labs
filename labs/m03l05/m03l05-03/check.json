@@ -1,0 +1,25 @@
+{
+  "lab": "m03l05-03",
+  "lesson": "m03l05",
+  "title": "A temporary path leaves no residue",
+  "mode": "graded",
+  "runner": "pytest",
+  "command": "python3 -m pytest -q test_report.py",
+  "main": "test_report.py",
+  "files": [
+    ".pytest_cache/.gitignore",
+    ".pytest_cache/CACHEDIR.TAG",
+    ".pytest_cache/README.md",
+    ".pytest_cache/v/cache/nodeids",
+    "command.txt",
+    "report.py",
+    "test_report.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "pytest",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

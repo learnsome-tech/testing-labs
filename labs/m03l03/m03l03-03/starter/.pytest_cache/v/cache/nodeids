@@ -1,0 +1,3 @@
+[
+  "test_mocked_checkout.py::test_pay_returns_the_gateway_id"
+]
