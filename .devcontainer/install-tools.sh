@@ -14,7 +14,7 @@ trap 'rm -rf "$tmp"' EXIT
 fetch() { curl -fsSL --retry 3 "$1" -o "$2" && echo "$3  $2" | sha256sum -c - >/dev/null; }
 
 export DEBIAN_FRONTEND=noninteractive
-apt-get update -q
+apt-get -o Acquire::Retries=5 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update -q
 apt-get install -y -q --no-install-recommends bash git unzip xz-utils ca-certificates curl
 rm -rf /var/lib/apt/lists/*
 mkdir -p /opt/lab
@@ -26,3 +26,8 @@ ln -sf /opt/python/bin/python3.14 /usr/local/bin/python3
 ln -sf /opt/python/bin/python3.14 /usr/local/bin/python
 # pytest and pytest-cov in that Python, as in the sandbox (hash-pinned)
 /opt/python/bin/python3.14 -m pip install -q --no-cache-dir --disable-pip-version-check --require-hashes --only-binary=:all: -r "$here/pytest-requirements.txt"
+
+# The toolchains also under /opt/lab/bin, the sandbox's own PATH entry
+mkdir -p /opt/lab/bin
+ln -sf /opt/python/bin/python3.14 /opt/lab/bin/python3
+ln -sf /opt/python/bin/python3.14 /opt/lab/bin/python
